@@ -19,10 +19,9 @@ nav{
 ul{
     list-style: none;
     display: flex;
-    border: solid;
 }
+
 h1{
-    border: solid;
     text-align: center;
 }
 
