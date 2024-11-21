@@ -12,7 +12,6 @@ body{
 
 nav{
     background: linear-gradient(45deg, rgb(35, 155, 51),#ecc92dda);
-    height: 10%;
     padding: 5px;
     width: 100%;
 }
@@ -20,7 +19,11 @@ nav{
 ul{
     list-style: none;
     display: flex;
-    position: left;
+    border: solid;
+}
+h1{
+    border: solid;
+    text-align: center;
 }
 
 li{
