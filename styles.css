@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav{
+    background: linear-gradient(45deg, rgb(35, 155, 51),#ecc92dda);
+    height: 10vw;
+    text-decoration: none;
+}
+
+nav > ul {
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+}
