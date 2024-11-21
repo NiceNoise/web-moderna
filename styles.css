@@ -13,15 +13,19 @@ body{
 nav{
     background: linear-gradient(45deg, rgb(35, 155, 51),#ecc92dda);
     height: 10vw;
-    text-decoration: none;
+    padding: 5px;
+    width: 100%;
 }
 
-nav > ul {
+ul{
     list-style: none;
-    display:flex;
-    justify-content: space-between;
+    display: flex;
 }
 
-nav > ul > li > a {
+li{
+    margin: 5px;
+}
+
+a {
     text-decoration: none;
 }
